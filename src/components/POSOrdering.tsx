@@ -16,7 +16,7 @@ import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { useApp } from "../contexts/AppContext";
 import { Analytics } from "../lib/analytics";
 import { dataStore } from "../lib/dataStore";
-import { toast } from "sonner@2.0.3";
+import { toast } from "sonner";
 
 interface MenuItem {
   id: number;

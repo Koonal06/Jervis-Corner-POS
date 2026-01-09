@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Clock, CheckCircle, ChefHat, Bell, AlertTriangle, TrendingUp } from "lucide-react";
 import { useApp } from "../contexts/AppContext";
 import { Analytics } from "../lib/analytics";
-import { toast } from "sonner@2.0.3";
+import { toast } from "sonner";
 
 export function KitchenDisplay() {
   const { orders, updateOrder } = useApp();

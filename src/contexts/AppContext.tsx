@@ -1,6 +1,6 @@
 import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 import { dataStore, Order, InventoryItem, MenuItem, StaffMember } from '../lib/dataStore';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 import { initializeDataIfNeeded } from '../lib/initializeData';
 
 interface AppContextType {

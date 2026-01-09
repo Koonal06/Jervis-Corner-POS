@@ -4,7 +4,7 @@ import {
   Bell, Globe, DollarSign, Clock, Shield, Activity, Printer
 } from "lucide-react";
 import { dataStore } from "../lib/dataStore";
-import { toast } from "sonner@2.0.3";
+import { toast } from "sonner";
 
 export function Settings() {
   const [activeTab, setActiveTab] = useState<'general' | 'data' | 'notifications' | 'logs'>('general');

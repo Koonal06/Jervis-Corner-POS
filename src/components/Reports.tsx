@@ -6,7 +6,7 @@ import {
 import { BarChart, Bar, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart as RechartsPie, Pie, Cell } from "recharts";
 import { dataStore } from "../lib/dataStore";
 import { Analytics } from "../lib/analytics";
-import { toast } from "sonner@2.0.3";
+import { toast } from "sonner";
 
 export function Reports() {
   const [reportType, setReportType] = useState<'daily' | 'weekly' | 'inventory' | 'staff' | 'financial'>('daily');
