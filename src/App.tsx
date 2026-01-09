@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
-import { Toaster } from "sonner@2.0.3";
+import { Toaster } from "sonner"; // ✅ fixed
 import { AppProvider } from "./contexts/AppContext";
 import { Login } from "./components/Login";
 import { Sidebar } from "./components/Sidebar";
